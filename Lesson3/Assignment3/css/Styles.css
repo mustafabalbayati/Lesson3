@@ -1,4 +1,55 @@
 
+/* Nav Bar
+------------------------------*/
+nav{
+box-sizing: border-box;
+margin: auto;
+padding: inherit;
+background-color: #24252A;
+
+}
+nav ul{
+  padding:0;
+  margin:0;
+  float:left;
+  margin: 20px;
+}
+nav ul li{
+  background: #2c3e50;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a{
+  display: block;
+  padding: 0 10px;
+  color: white;
+  text-decoration:none;
+  line-height: 30px;
+  font-size: 10px;
+}
+nav ul li a:hover{
+  background: #243342;
+  cursor:pointer;
+}
+ul ul {
+  position:absolute;
+  top: 10px;
+  padding: .5px;
+  display: none;
+
+}
+nav ul li:hover > ul{
+  display: block;
+}
+nav ul ul li{
+  width: 150px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
 
 /* Global styles
 ------------------------------*/
